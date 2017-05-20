@@ -1,0 +1,40 @@
+.body {
+	background: blue;
+	border: 1px solid gray;
+	padding: 15px;
+}
+
+p {
+	text-indent: 20px;
+	text-align: justify;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+}
+
+li {
+	flex: 1 0 10%;
+	background: darkgray;
+	padding: 7px;
+	border-right: 1px solid green;
+}
+
+li:hover {
+	background: palevioletred;
+}
+
+.main {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+}
+
+.main p {
+	flex: 0 0 30%;
+}

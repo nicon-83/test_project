@@ -1,0 +1,5 @@
+#all txt files
+*.txt
+
+#folders
+/node_modules

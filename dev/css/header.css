@@ -1,0 +1,14 @@
+header, .body, footer {
+	padding: 15px;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background: green;
+	border: 1px solid red;
+}
+
+header h1 {
+	text-align: center;
+}

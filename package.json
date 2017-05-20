@@ -1,0 +1,21 @@
+{
+  "name": "test_project",
+  "version": "1.0.0",
+  "description": "my_first_gulp_project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vladimir Makedonov",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^3.3.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-htmlincluder": "^0.1.0",
+    "livereload": "^0.6.2"
+  }
+}
